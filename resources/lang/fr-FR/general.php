@@ -104,6 +104,7 @@ return [
     'enable'                => 'ប្រើបាន',
     'disable'               => 'ប្រើមិនបាន',
     'new_account'           => 'បង្កើតគណនីថ្មី',
+    'new_company'           => 'បង្កើតក្រុមហ៊ុនថ្មី',
     'title' => [
         'new'               => 'បង្កើតថ្មី :type',
         'edit'              => 'កែប្រែ :type',

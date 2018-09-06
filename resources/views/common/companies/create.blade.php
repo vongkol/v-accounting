@@ -1,7 +1,7 @@
 @extends('layouts.admin')
 
-@section('title', trans('general.title.new', ['type' => trans_choice('general.companies', 1)]))
-
+<!-- @section('title', trans('general.title.new', ['type' => trans_choice('general.companies', 1)])) -->
+@section('title', trans('general.new_company'))
 @section('content')
     <!-- Default box -->
     <div class="box box-success">

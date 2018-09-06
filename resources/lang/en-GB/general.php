@@ -104,7 +104,7 @@ return [
     'enable'                => 'Enable',
     'disable'               => 'Disable',
     'new_account'           => 'New Account',
-
+    'new_company'           => 'New Company',
     'title' => [
         'new'               => 'New :type',
         'edit'              => 'Edit :type',
