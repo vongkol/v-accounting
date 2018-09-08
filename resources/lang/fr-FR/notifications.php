@@ -2,9 +2,9 @@
 
 return [
 
-    'whoops'              => 'Oups !',
-    'hello'               => 'Bonjour !',
-    'salutation'          => 'Cordialement,<br>:company_name',
-    'subcopy'             => 'Si vous n\'arrivez pas à cliquer sur le bouton ":text", veuillez copier et coller l\'URL ci-dessous dans votre navigateur web : [:url](:url)',
+    'whoops'              => 'Whoops!',
+    'hello'               => 'សួរស្តី!',
+    'salutation'          => 'Regards,<br> :company_name',
+    'subcopy'             => 'ប្រសិនបើលោកអ្នកមានបញ្ហា មិនអាចចុចលើប៊ូតុង ":text" បានទេ, សូមចម្លង URL : [:url](:url)​ នេះយកទៅប្រើប្រាស់ជំនួសវិញ។',
 
 ];

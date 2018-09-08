@@ -33,11 +33,131 @@
                 </span>
             </div>
         </form>
-        <!-- /.search form -->
-        <!-- sidebar menu: : style can be found in sidebar.less -->
-        {!! Menu::get('AdminMenu') !!}
+        <ul class="sidebar-menu tree" data-widget="tree">
+            <li class="current">
+                <a href="{{url('/')}}"><i class="fa fa-dashboard"></i> Dashboard</a>
+            </li>
+            <li>
+                <a href="{{url('/common/items')}}"><i class="fa fa-cubes"></i>Items</a>
+            </li>
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-money"></i> Incomes
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li>
+                        <a href="{{url('/incomes/invoices')}}"><i class="fa fa-angle-double-right"></i> Invoices</a>
+                    </li>
+                    <li>
+                        <a href="{{url('/incomes/revenues')}}"><i class="fa fa-angle-double-right"></i> Revenues</a>
+                    </li>
+                    <li>
+                        <a href="{{url('/incomes/customers')}}"><i class="fa fa-angle-double-right"></i> Customers</a>
+                    </li>
+            
+                </ul>
+            </li>
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-shopping-cart"></i> <span>Expenses
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li>
+                        <a href="{{url('/expenses/bills')}}"><i class="fa fa-angle-double-right"></i> Bills</a>
+                    </li>
+                    <li>
+                        <a href="{{url('/expenses/payments')}}"><i class="fa fa-angle-double-right"></i> Payments</a>
+                    </li>
+                    <li>
+                        <a href="{{url('/expenses/vendors')}}"><i class="fa fa-angle-double-right"></i> Vendors</a>
+                    </li>
+            
+                </ul>
+            </li>
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-university"></i> Banking
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li>
+                        <a href="{{url('/banking/accounts')}}"><i class="fa fa-angle-double-right"></i> Accounts</a>
+                    </li>
+                    <li>
+                        <a href="{{url('/banking/transfers')}}"><i class="fa fa-angle-double-right"></i> Transfers</a>
+                    </li>
+                    <li>
+                        <a href="{{url('/banking/transactions')}}"><i class="fa fa-angle-double-right"></i> Transactions</a>
+                    </li>
+            
+                </ul>
+            </li>
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-bar-chart"></i> Reports
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li>
+                        <a href="{{url('/reports/income-summary')}}"><i class="fa fa-angle-double-right"></i> Income Summary</a>
+                    </li>
+                    <li>
+                        <a href="{{url('/reports/expense-summary')}}"><i class="fa fa-angle-double-right"></i> Expense Summary</a>
+                    </li>
+                    <li>
+                        <a href="{{url('/reports/income-expense-summary')}}"><i class="fa fa-angle-double-right"></i> Income vs Expense</a>
+                    </li>
+                    <li>
+                        <a href="{{url('/reports/tax-summary')}}"><i class="fa fa-angle-double-right"></i> Tax Summary</a>
+                    </li>
+                    <li>
+                        <a href="{{url('/reports/profit-loss')}}"><i class="fa fa-angle-double-right"></i> Profit &amp; Loss</a>
+                    </li>
+            
+                </ul>
+            </li>
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-gears"></i> Settings
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li>
+                        <a href="{{url('/settings/settings')}}"><i class="fa fa-angle-double-right"></i> General</a>
+                    </li>
+                    <li>
+                        <a href="{{url('/settings/categories')}}"><i class="fa fa-angle-double-right"></i> Categories</a>
+                    </li>
+                    <li>
+                        <a href="{{url('/settings/currencies')}}"><i class="fa fa-angle-double-right"></i> Currencies</a>
+                    </li>
+                    <li>
+                        <a href="{{url('/settings/taxes')}}"><i class="fa fa-angle-double-right"></i> Tax Rates</a>
+                    </li>
+                    <li>
+                        <a href="{{url('/apps/offlinepayment/settings')}}"><i class="fa fa-angle-double-right"></i> Offline Payments</a>
+                    </li>
+                    <li>
+                        <a href="{{url('/settings/apps/paypalstandard')}}"><i class="fa fa-angle-double-right"></i> Paypal Standard</a>
+                    </li>
+            
+                </ul>
+            </li>
+            
+        </ul>
     </section>
-    <!-- /.sidebar -->
 </aside>
 
 @stack('menu_end')

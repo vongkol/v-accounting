@@ -8,12 +8,12 @@
             @stack('login_box_start')
 
             <div class="login-logo">
-                <img src="{{ asset('public/img/akaunting-logo-white.png') }}" alt="Akaunting" />
+                <img src="{{ asset('public/img/akaunting-logo-white.png') }}" alt="V-Accounting" />
             </div>
             <!-- /.login-logo -->
 
             <div class="login-box-body">
-                <p class="login-box-msg">@yield('message')</p>
+                <p class="login-box-msg"><strong>@yield('message')</strong></p>
 
                 @include('flash::message')
 
@@ -26,7 +26,7 @@
             <!-- /.login-box-body -->
 
             <div class="login-box-footer">
-                {{ trans('footer.powered') }}: <a href="https://akaunting.com" target="_blank">{{ trans('footer.software') }}</a>
+               Powered By <u><a href="http://vdoo.biz" target="_blank">Vdoo Freelance Team</a></u>
             </div>
             <!-- /.login-box-footer -->
 

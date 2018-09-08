@@ -2,11 +2,11 @@
 
 return [
 
-    'from_account'          => 'Du compte',
-    'to_account'            => 'Vers le compte',
+    'from_account'          => 'ពីគណនី',
+    'to_account'            => 'ទៅគណនី',
 
     'messages' => [
-        'delete'            => ':from vers :to (:amount)',
+        'delete'            => ':from ទៅ :to (:amount)',
     ],
 
 ];

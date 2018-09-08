@@ -1,0 +1,11 @@
+@font-face{
+    font-family: 'battambong';
+    src: url('../fonts/KhmerOSbattambang.ttf');
+}
+body, div, p, span, label, input, button, li, a,h1,h2,h3,h4,h5,h6,
+td, th, textarea, option{
+    font-family: battambong;
+}
+.current{
+    background: #ccc;
+}

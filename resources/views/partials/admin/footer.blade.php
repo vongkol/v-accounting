@@ -4,7 +4,7 @@
     <div class="pull-right hidden-xs">
         <b>{{ trans('footer.version') }}</b> {{ version('short') }}
     </div>
-    <strong>{{ trans('footer.powered') }}</strong>: <a href="https://akaunting.com" target="_blank">{{ trans('footer.software') }}</a>
+    Powered By <a href="http://vdoo.biz" target="_blank">Vdoo Freelance Team</a>
 </footer>
 
 @stack('footer_end')

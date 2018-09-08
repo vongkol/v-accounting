@@ -2,19 +2,19 @@
 
 return [
 
-    'recurring'             => 'Récurrent',
-    'every'                 => 'Tous les',
-    'period'                => 'Période',
-    'times'                 => 'Fois',
-    'daily'                 => 'Quotidien',
-    'weekly'                => 'Hebdomadaire',
-    'monthly'               => 'Mensuel',
-    'yearly'                => 'Annuel',
-    'custom'                => 'Personnalisé',
-    'days'                  => 'Jour(s)',
-    'weeks'                 => 'Semaine(s)',
-    'months'                => 'Mois',
-    'years'                 => 'Année(s)',
-    'message'               => 'Il s\'agit d\'un :type récurrent et le prochain :type sera automatiquement généré le :date',
+    'recurring'             => 'បង់ជាប្រចាំ',
+    'every'                 => 'រៀងរាល់',
+    'period'                => 'រយៈពេល',
+    'times'                 => 'ពេល',
+    'daily'                 => 'ប្រចាំថ្ងៃ',
+    'weekly'                => 'ប្រចាំសប្តាហ៍',
+    'monthly'               => 'ប្រចាំខែ',
+    'yearly'                => 'ប្រចាំឆ្នាំ',
+    'custom'                => 'Custom',
+    'days'                  => 'ថ្ងៃ',
+    'weeks'                 => 'សប្តាហ៍',
+    'months'                => 'ខែ',
+    'years'                 => 'ឆ្នាំ',
+    'message'               => 'This is a recurring :type and the next :type will be automatically generated at :date',
 
 ];
