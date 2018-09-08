@@ -49,6 +49,10 @@
         var text_no = '{{ trans('general.no') }}';
 
         $(document).ready(function(){
+            $("ul.sidebar-menu li").removeClass('active');
+            $("ul.sidebar-menu li").removeClass("current");
+            $("#menu_banking").addClass('active');
+            $("#menu_account").addClass('current');
             $("#opening_balance").maskMoney({
                 thousands : '{{ $currency->thousands_separator }}',
                 decimal : '{{ $currency->decimal_mark }}',

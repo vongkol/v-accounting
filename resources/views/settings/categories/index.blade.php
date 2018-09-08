@@ -88,3 +88,13 @@
 </div>
 <!-- /.box -->
 @endsection
+@push('scripts')
+<script>
+    $(document).ready(function(){
+        $("ul.sidebar-menu li").removeClass('active');
+        $("ul.sidebar-menu li").removeClass("current");
+        $("#menu_setting").addClass('active');
+        $("#menu_category").addClass('current');
+    });
+</script>
+@endpush

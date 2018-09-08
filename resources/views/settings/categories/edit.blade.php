@@ -61,6 +61,10 @@
         var text_no = '{{ trans('general.no') }}';
 
         $(document).ready(function(){
+            $("ul.sidebar-menu li").removeClass('active');
+            $("ul.sidebar-menu li").removeClass("current");
+            $("#menu_setting").addClass('active');
+            $("#menu_category").addClass('current');
             $("#type").select2({
                 placeholder: "{{ trans('general.form.select.field', ['field' => trans_choice('general.types', 1)]) }}"
             });

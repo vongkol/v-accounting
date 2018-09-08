@@ -35,5 +35,11 @@
     <script type="text/javascript">
         var text_yes = '{{ trans('general.yes') }}';
         var text_no = '{{ trans('general.no') }}';
+        $(document).ready(function(){
+            $("ul.sidebar-menu li").removeClass('active');
+            $("ul.sidebar-menu li").removeClass("current");
+            $("#menu_setting").addClass('active');
+            $("#menu_tax_rate").addClass('current');
+        });
     </script>
 @endpush

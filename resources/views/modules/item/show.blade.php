@@ -196,6 +196,7 @@
                     }
                 });
             });
+            alert('alert from show item');
         });
 
         function next() {

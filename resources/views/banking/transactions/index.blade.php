@@ -58,3 +58,13 @@
 </div>
 <!-- /.box -->
 @endsection
+@push('scripts')
+<script>
+    $(document).ready(function(){
+        $("ul.sidebar-menu li").removeClass('active');
+        $("ul.sidebar-menu li").removeClass("current");
+        $("#menu_banking").addClass('active');
+        $("#menu_transaction").addClass('current');
+    });
+</script>
+@endpush

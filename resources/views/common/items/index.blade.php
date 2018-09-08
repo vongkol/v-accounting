@@ -98,3 +98,11 @@
 </div>
 <!-- /.box -->
 @endsection
+@push('scripts')
+<script>
+    $(document).ready(function(){
+        $("ul.sidebar-menu li").removeClass("current");
+        $("#menu_item").addClass('current');
+    });
+</script>
+@endpush

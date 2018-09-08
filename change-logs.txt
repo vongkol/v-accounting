@@ -2,3 +2,9 @@
 	- change from French to Khmer
 	- confi/language
 	- vendor/akaunting/src/resources/assets/img/flags
+
+2 - update sidebar menu
+	- remove original menu
+	- write plan html menu
+	- add js for active and current menu
+	

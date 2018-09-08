@@ -28,3 +28,13 @@
 </div>
 <!-- /.box -->
 @endsection
+@push('scripts')
+<script>
+    $(document).ready(function(){
+        $("ul.sidebar-menu li").removeClass('active');
+        $("ul.sidebar-menu li").removeClass("current");
+        $("#menu_report").addClass('active');
+        $("#menu_tax_sum").addClass('current');
+    });
+</script>
+@endpush

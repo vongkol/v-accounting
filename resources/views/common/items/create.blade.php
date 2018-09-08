@@ -67,6 +67,8 @@
     var text_no = '{{ trans('general.no') }}';
 
     $(document).ready(function(){
+        $("ul.sidebar-menu li").removeClass("current");
+        $("#menu_item").addClass('current');
         /*$("#sale_price").maskMoney({
             thousands : '{{ $currency->thousands_separator }}',
             decimal : '{{ $currency->decimal_mark }}',
@@ -130,6 +132,8 @@
                 }
             }
         });
+        
+       
     });
 </script>
 @endpush

@@ -39,7 +39,7 @@ return [
     'statuses'              => 'ស្ថានភាព',
     'others'                => 'ផ្សេងៗ',
 
-    'dashboard'             => 'Dashboard',
+    'dashboard'             => 'ផ្ទាំង​​ Dashboard',
     'banking'               => 'ធនាគារ',
     'general'               => 'ទូទៅ',
     'no_records'            => 'មិនមានទិន្នន័យ',

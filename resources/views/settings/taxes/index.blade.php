@@ -83,3 +83,13 @@
 </div>
 <!-- /.box -->
 @endsection
+@push('scripts')
+<script>
+    $(document).ready(function(){
+        $("ul.sidebar-menu li").removeClass('active');
+        $("ul.sidebar-menu li").removeClass("current");
+        $("#menu_setting").addClass('active');
+        $("#menu_tax_rate").addClass('current');
+    });
+</script>
+@endpush

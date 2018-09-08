@@ -51,6 +51,10 @@
         var text_no = '{{ trans('general.no') }}';
 
         $(document).ready(function(){
+            $("ul.sidebar-menu li").removeClass('active');
+            $("ul.sidebar-menu li").removeClass("current");
+            $("#menu_expense").addClass('active');
+            $("#menu_vendor").addClass('current');
             $('#enabled_1').trigger('click');
 
             $('#name').focus();

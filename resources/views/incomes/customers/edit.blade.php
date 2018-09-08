@@ -65,6 +65,10 @@
         var text_no = '{{ trans('general.no') }}';
 
         $(document).ready(function(){
+            $("ul.sidebar-menu li").removeClass('active');
+            $("ul.sidebar-menu li").removeClass("current");
+            $("#menu_income").addClass('active');
+            $("#menu_customer").addClass('current');
             $("#currency_code").select2({
                 placeholder: "{{ trans('general.form.select.field', ['field' => trans_choice('general.currencies', 1)]) }}"
             });

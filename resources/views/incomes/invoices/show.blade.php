@@ -329,6 +329,10 @@
 @push('scripts')
     <script type="text/javascript">
         $(document).ready(function(){
+            $("ul.sidebar-menu li").removeClass('active');
+            $("ul.sidebar-menu li").removeClass("current");
+            $("#menu_income").addClass('active');
+            $("#menu_invoice").addClass('current');
             $(document).on('click', '#button-email', function (e) {
                 $('#email-modal').remove();
 

@@ -23,3 +23,13 @@
         {!! Form::close() !!}
     </div>
 @endsection
+@push('scripts')
+<script>
+    $(document).ready(function(){
+        $("ul.sidebar-menu li").removeClass('active');
+        $("ul.sidebar-menu li").removeClass("current");
+        $("#menu_security").addClass('active');
+        $("#menu_permission").addClass('current');
+    });
+</script>
+@endpush

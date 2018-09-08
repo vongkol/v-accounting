@@ -50,6 +50,10 @@
         var text_no = '{{ trans('general.no') }}';
 
         $(document).ready(function(){
+            $("ul.sidebar-menu li").removeClass('active');
+            $("ul.sidebar-menu li").removeClass("current");
+            $("#menu_setting").addClass('active');
+            $("#menu_category").addClass('current');
             $('#enabled_1').trigger('click');
 
             $('#name').focus();

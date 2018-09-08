@@ -92,6 +92,10 @@
 @push('scripts')
     <script type="text/javascript">
         $(document).ready(function(){
+            $("ul.sidebar-menu li").removeClass('active');
+            $("ul.sidebar-menu li").removeClass("current");
+            $("#menu_expense").addClass('active');
+            $("#menu_payment").addClass('current');
             $("#amount").maskMoney({
                 thousands : '{{ $currency->thousands_separator }}',
                 decimal : '{{ $currency->decimal_mark }}',

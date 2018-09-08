@@ -150,3 +150,13 @@
         </div>
     </div>
 @endsection
+@push('scripts')
+<script>
+    $(document).ready(function(){
+        $("ul.sidebar-menu li").removeClass('active');
+        $("ul.sidebar-menu li").removeClass("current");
+        $("#menu_income").addClass('active');
+        $("#menu_customer").addClass('current');
+    });
+</script>
+@endpush

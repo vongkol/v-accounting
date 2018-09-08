@@ -308,6 +308,8 @@
                 }
             });
         });
+        $("ul.sidebar-menu>li").removeClass("current");
+        $("#menu_dashboard").addClass('current');
     });
 </script>
 @endpush
